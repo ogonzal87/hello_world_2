@@ -1,0 +1,84 @@
+/* BACKGROUND */
+
+#backgroundall {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-image: url("/img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* HEADING  */
+
+a {
+	text-decoration: none;
+}
+
+header a, header a:visited {
+	color: white;
+	margin: 0px;
+	text-align: right;
+}
+
+header a:hover{
+	color: #01ded3;
+}
+
+#name {
+
+	text-align: left;
+	font-size: 60px;
+}
+
+/* BODY  */
+
+#aboutmetitle {
+	margin: 20px;
+	max-width: 100%;
+	color: #01ded3;
+	text-align: left;
+}
+
+#bodyoftext {
+	font-size: 18px;
+	margin: 20px;
+	max-width: 550px;
+	text-align: justify;
+	color: white;
+}
+
+#contactdetails {
+	font-size: 60px;
+	color: white;
+	margin: 20px;
+	text-align: left;
+}
+
+.section a {
+	text-align: right;
+	text-decoration: none;
+	color: #FFF;	
+	margin: 20px; 
+	padding: 0;
+	font-size: 15px;
+}
+
+.phone a:hover{
+	color: #01ded3;
+}
+
+.mail a:hover{
+	color: #01ded3;
+}
+
+/*  FOOTER  */
+
+#externalprofiles {
+	
+	display: block;
+	color: white;
+	margin: 10px;
+}
+
+
+
