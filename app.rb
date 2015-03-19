@@ -12,3 +12,9 @@ get '/contact' do
   erb :contact
 end
 
+#CProjects page
+get '/projects' do
+  @title = "Projects"
+  erb :projects
+end
+
