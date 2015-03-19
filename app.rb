@@ -2,7 +2,7 @@ require 'sinatra'
 
 ## Home Page
 get '/' do
-  @title = "About me"
+  @title = "Home"
   erb :home
 end
 
