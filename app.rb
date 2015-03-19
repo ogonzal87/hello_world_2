@@ -1,4 +1,6 @@
+require 'rubygems'
 require 'sinatra'
+
 
 ## Home Page
 get '/' do
