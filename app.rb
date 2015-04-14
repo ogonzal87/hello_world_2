@@ -2,8 +2,14 @@ require 'rubygems'
 require 'sinatra'
 
 
-## Home Page
+## In Construction Page
 get '/' do
+  @title = "In Construction"
+  erb :construction
+end
+
+## Home Page
+get '/home' do
   @title = "Home"
   erb :home
 end
