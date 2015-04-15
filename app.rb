@@ -3,13 +3,13 @@ require 'sinatra'
 
 
 ## In Construction Page
-get '/' do
-  @title = "In Construction"
-  erb :construction
-end
+# get '/' do
+#   @title = "In Construction"
+#   erb :construction
+# end
 
 ## Home Page
-get '/home' do
+get '/' do
   @title = "Home"
   erb :home
 end
