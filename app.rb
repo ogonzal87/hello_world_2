@@ -14,15 +14,19 @@ get '/' do
   erb :home
 end
 
-#Contact-me page
-get '/contact' do
-  @title = "Contact Me"
-  erb :contact
+post '/public/mail/contactme.php' do
+  "Hello World"
 end
 
-#CProjects page
-get '/projects' do
-  @title = "Projects"
-  erb :projects
-end
+# #Contact-me page
+# get '/contact' do
+#   @title = "Contact Me"
+#   erb :contact
+# end
+
+# #CProjects page
+# get '/projects' do
+#   @title = "Projects"
+#   erb :projects
+# end
 
