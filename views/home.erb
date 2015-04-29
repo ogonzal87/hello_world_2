@@ -156,22 +156,9 @@
                         <p class="text-muted">An AngularJS and Firebase App</p>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/staffhacker.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Staff Hacker</h4>
-                        <p class="text-muted">An AngularJS and Rails App</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -182,6 +169,21 @@
                     <div class="portfolio-caption">
                         <h4>Plzes</h4>
                         <p class="text-muted">A Ruby and Rails App</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/staffhacker.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Staff Hacker</h4>
+                        <p class="text-muted">An AngularJS and Rails App</p>
                     </div>
                 </div>
 
@@ -396,11 +398,19 @@
                             <!-- Project Details Go Here -->
                             <h2>Yolko</h2>
                             <p class="item-intro text-muted">An AngularJS and Firebase Web Application</p>
-                            <img class="img-responsive" src="img/presenterview.jpeg" alt="">
-                            <p>All presentation and lectures are a one-directional interaction. I wanted to change that so that the presenter and audience could provide feedback in realtime based on the subject being presented. So I created Yolko. Yolko is a real time application using AngularJS and Firebase that displays the mood at a presentation or lecture in a fun and interactive way.</p>
+                            <button class="btn btn-primary launch-project-btn" onClick="window.open('https://imyolko.firebaseapp.com/#/', '_blank' )">Launch Project</button>
+                            <img class="img-responsive" src="img/presenterview.jpeg" alt=""></a>
+                            <p><strong>Attendee View: </strong><a href="https://imyolko.firebaseapp.com/#/meeting" target="_blank">https://imyolko.firebaseapp.com/#/meeting</a><br>
+                            <strong>Presenter View: </strong><a href="https://imyolko.firebaseapp.com/#/results" target="_blank">https://imyolko.firebaseapp.com/#/results</a></p>
+                            <p>All presentation and lectures are a one-directional interaction. I wanted to change that so that the presenter and audience could provide feedback in realtime based on the subject being presented. So, I created Yolko.
+                            Yolko is a real time application using AngularJS and Firebase that displays the mood at a presentation or lecture in a fun and interactive way. Yolko has two views; one for the attendees and one for the presenter.
+                            To test Yolko just launch the project. You can also open multiple tabs to simulate multiple attendees. Make sure you also go to this URL (https://imyolko.firebaseapp.com/#/results.)
+                            This is the presenter view or dashboard and is hidden from the attendees. Anything that happens in the attendees views will be reflected in the presenter view or dashboard in REAL TIME. Check it out! Is pretty cool.</p>
+
                             <ul class="list-inline">
                                 <li><strong>Date:</strong> March 2015</li>
                                 <li><strong>Technologies/Languages used:</strong> JavaScript, AngularJS, Firebase, Underscore.js, Gulp, HTML5/CSS3 and Bootstrap</li>
+
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -409,6 +419,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- Portfolio Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -423,15 +435,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Staff Hacker</h2>
-                            <p class="item-intro text-muted">An AngularJS and Rails Web Application</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/staffhackermodal.png" alt="">
-                            <p>Worked on a team of four to create Staff Hacker, a recruiter rating platform for hiring managers.
-                            The Application allows you to search for recruiters by name or the company they work for.
-                            Once you find the recruiter you are looking for, it let's you see his/her rating and you can also rate your experience.</p>
+                            <!-- Project Details Go Here -->
+                            <h2>Plzes</h2>
+                            <p class="item-intro text-muted">A Ruby and Rails Web Application</p>
+                            <button class="btn btn-primary launch-project-btn" onClick="window.open('https://plzes.herokuapp.com/', '_blank' )">Launch Project</button>
+                            <img class="img-responsive img-centered" src="img/plzessearch.png" alt="">
+                            <p>Plzes is a web application that allows you to search and store any places you would like to visit while traveling.
+                            While traveling through Europe for 3 months with my brother, we found ourselves spending too much time planning the itinerary for the next city.
+                            I wanted to create an application that would allow me to find the most popular places in a city and save them to my itinerary.</p>
                             <ul class="list-inline">
-                                <li><strong>Date:</strong> February 2015</li>
-                                <li><strong>Technologies/Languages used:</strong> Rails, Ruby, AngularJS, Yeoman, Bower, Grunt, PostgreSQL, ActiveRecord, HTML5/CSS3, JQuery, GitHub and EaselJS.</li>
+                                <li><strong>Date:</strong> January 2015</li>
+                                <li><strong>Technologies/Languages used:</strong> Rails, Ruby, PostgreSQL, ActiveRecord, HTML5/CSS3 HTML5/CSS3, Rspec testing (TDD), Heroku and Bootstrap.</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -454,14 +468,16 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Plzes</h2>
-                            <p class="item-intro text-muted">A Ruby and Rails Web Application</p>
-                            <img class="img-responsive img-centered" src="img/plzessearch.png" alt="">
-                            <p>Plzes is a web application that allows you to search and store any places you would like to visit while traveling. While traveling through Europe for 3 months with my brother, we found ourselves spending too much time planning the itinerary for the next city. I wanted to create an application that would allow me to find the most popular places in a city and save them to my itinerary.</p>
+                            <h2>Staff Hacker</h2>
+                            <p class="item-intro text-muted">An AngularJS and Rails Web Application</p>
+                            <button class="btn btn-primary launch-project-btn" onClick="window.open('https://staff-hacker.herokuapp.com/', '_blank' )">Launch Project</button>
+                            <img class="img-responsive img-centered" src="img/portfolio/staffhackermodal.png" alt=""></a>
+                            <p>Worked on a team of four to create Staff Hacker, a recruiter rating platform for hiring managers.
+                            The Application allows you to search for recruiters by name or the company they work for.
+                            Once you find the recruiter you are looking for, it let's you see his/her rating and you can also rate your experience.</p>
                             <ul class="list-inline">
-                                <li><strong>Date:</strong> January 2015</li>
-                                <li><strong>Technologies/Languages used:</strong> Rails, Ruby, PostgreSQL, ActiveRecord, HTML5/CSS3 HTML5/CSS3, Rspec testing (TDD), Heroku and Bootstrap.</li>
+                                <li><strong>Date:</strong> February 2015</li>
+                                <li><strong>Technologies/Languages used:</strong> Rails, Ruby, AngularJS, Yeoman, Bower, Grunt, PostgreSQL, ActiveRecord, HTML5/CSS3, JQuery, GitHub and EaselJS.</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
@@ -470,6 +486,7 @@
             </div>
         </div>
     </div>
+
 
 
 
